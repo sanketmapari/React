@@ -2,6 +2,7 @@ import Footer from "./Footer"
 import Header from "./Header"
 import Home from "./Home"
 import Index from "./StyleComp"
+import Index2 from "./StyleComp/Index2"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Footer/> */}
 
       <Index/>
+      <Index2/>
     </>
   )
 }

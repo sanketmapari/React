@@ -1,4 +1,5 @@
 import React from 'react'
+import './Style.css'
 
 function Index() {
   const test = {
@@ -11,6 +12,7 @@ function Index() {
     <div>
         <h1 style={{backgroundColor:"black", color:"white",textAlign:"center",padding:"10px"}}> Inline Css</h1>
         <h1 style={test}>  Internal css </h1>
+        <h1 className='demo'> External css </h1>
     </div>
   )
 }
