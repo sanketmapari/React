@@ -1,4 +1,9 @@
+import Condition from "./Conditional/Condition"
+import Ternary from "./Conditional/Ternary"
 import Footer from "./Footer"
+import Array from "./FunctionObject/Array"
+import Object from "./FunctionObject/Object"
+import Test from "./FunctionObject/test"
 import Header from "./Header"
 import Home from "./Home"
 import Index from "./StyleComp"
@@ -12,8 +17,14 @@ function App() {
       <Header/>
       <Footer/> */}
 
-      <Index/>
-      <Index2/>
+      {/* <Index/>
+      <Index2/> */}
+
+      {/* <Test/> */}
+      {/* <Array/> */}
+      {/* <Object/> */}
+      {/* <Condition /> */}
+      <Ternary/>
     </>
   )
 }
